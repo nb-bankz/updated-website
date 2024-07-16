@@ -94,7 +94,7 @@ font-weight: 750;
 
 
 
-.button {
+.button-container {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 450;
@@ -102,7 +102,7 @@ font-weight: 750;
 
 }
 
-.button .btn {
+.button-container .btn {
 text-decoration:none;
 background-color: white;
 color: black;
@@ -113,11 +113,11 @@ transition: background-color 0.3 ease;
 box-shadow:0 6px 8px rgba(0,0,0,0.1);
 }
 
-.button .btn:hover {
+.button-container .btn:hover {
     box-shadow: 0 6px 8px rgba(80, 3, 245, 0.2);
 
-}
 
+}
 
 .experience-section {
     font-family: "Montserrat", sans-serif;
@@ -507,3 +507,71 @@ a:hover {
 
 
     }
+
+
+
+
+    .contact-Section {
+
+
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        text-align: center;
+        padding: 2rem 1rem;
+        background-color: white;
+        margin: 2rem auto;
+        width: 80%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+
+
+
+    }
+
+
+    html {
+
+
+        scroll-behavior: smooth;
+    }
+
+
+
+    .contact-Section h2 {
+
+        margin-bottom: 2rem ;
+        font-size: 1.5rem;
+        color: #0056b3;
+        text-decoration:underline
+
+
+    }
+
+    .contact-icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .contact-icons a {
+        text-decoration: none;
+        font-size: 36px;
+        color: green;
+        margin-right: 20px;
+    }
+
+    .contact-icons a.linkedin {
+        color: #0e76a8;
+        
+    }
+
+    .contact-icons a.email {
+        color: orangered;
+    }
+
+    .contact-icons i {
+        font-size: 36px;
+    }
+    
