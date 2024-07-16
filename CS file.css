@@ -1,18 +1,15 @@
 body{
 
-font-family:Arial,sans-serif ;
-margin:0;
-padding:0;
-background-color: #f4f4f4;
-display: flex;
-justify-content: center;
-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+
 
 }
 
 header{
 
-    background-color: #f4f9ff;
+    background-color: white;
     padding:20px 0;
     border-bottom:1px solid #ddd;
     width:100%;
@@ -22,12 +19,11 @@ header{
 
 .container{
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-width:88%;
-margin: 0 auto;
-text-align:center;
-display: flex;
-justify-content: center;
 
 }
 
@@ -44,8 +40,8 @@ justify-content: center;
 
 .profile img{
 
-width:150px;
-height:150px;
+width:300px;
+height:300px;
 border-radius: 50%;
 border: 5px solid #fff;
 box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -59,6 +55,9 @@ max-width: 600px;
 
 
 .profile-info h1{
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 450;
 font-size:2.5em;
 margin: 0;
 font-weight: 750;
@@ -81,3 +80,430 @@ font-weight: 750;
 
 
 
+.first-paragraph {
+
+    text-decoration-color: #555;
+    font-size:1em;
+    line-height: 1.6;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+
+}
+
+
+
+.button {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    margin-top: 20px ;
+
+}
+
+.button .btn {
+text-decoration:none;
+background-color: white;
+color: black;
+padding: 10px 20px;
+border-radius: 34px ;
+margin:0 10px 0 0;
+transition: background-color 0.3 ease;
+box-shadow:0 6px 8px rgba(0,0,0,0.1);
+}
+
+.button .btn:hover {
+    box-shadow: 0 6px 8px rgba(80, 3, 245, 0.2);
+
+}
+
+
+.experience-section {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: white;
+    margin: 2rem auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-section h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #0056b3;
+    text-decoration:underline
+
+}
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.experience {
+    flex: 1 1 200px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience h3 {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.experience p {
+    color: #666;
+}
+
+.testimonials-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: white;
+    margin: 2rem auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-section h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #0056b3;
+    text-decoration:underline
+
+}
+
+
+
+.Education-section {
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: white;
+    margin: 2rem auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+
+
+
+.Education-section h2 {
+
+    margin-bottom: 2rem ;
+    font-size: 1.5rem;
+    color: #0056b3;
+    text-decoration:underline
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.education-container {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+
+
+.educations {
+
+
+    flex: 1 1 200px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+
+
+}
+
+
+
+.Projects-section {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: white;
+    margin: 2rem auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.Projects-section h2 {
+
+margin-bottom: 2rem ;
+font-size: 1.5rem;
+color: #0056b3;
+text-decoration:underline
+
+
+
+}
+
+
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.project {
+    flex: 1 1 200px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.project p {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+
+.project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.Skills-section {
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: white;
+    margin: 2rem auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+.Skills-section h2 {
+
+    margin-bottom: 2rem ;
+    font-size: 1.5rem;
+    color: #0056b3;
+    text-decoration:underline
+
+    
+    
+    }
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    
+
+
+    .skill {
+        flex: 1 1 200px;
+        margin: 1rem;
+        padding: 1rem;
+        background-color: #f5f5f5;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+
+
+    .skill h3 {
+
+        font-size: 1.25rem;
+        color: #333;
+    }
+
+
+
+
+    .skill p {
+       
+        color: #333;
+    }
+    
+
+
+
+    .Hobbies-section {
+
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        text-align: center;
+        padding: 2rem 1rem;
+        background-color: white;
+        margin: 2rem auto;
+        width: 80%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    }
+
+
+
+    .Hobbies-section h2 {
+
+        margin-bottom: 2rem ;
+        font-size: 1.5rem;
+        color: #0056b3;
+        text-decoration:underline
+
+
+    }
+
+
+
+    .Hobbies-container {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .Hobby{
+
+        flex: 1 1 200px;
+        margin: 1rem;
+        padding: 1rem;
+        background-color: #f5f5f5;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+
+    }
+
+
+    .Hobby h3{
+
+
+
+        font-size: 1.25rem;
+        color: #333;
+
+    }
+
+
+    .Hobby p {
+
+        color: #333;
+    }
+
+
+
+    .Achievements-Section {
+
+
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        text-align: center;
+        padding: 2rem 1rem;
+        background-color: white;
+        margin: 2rem auto;
+        width: 80%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+    }
+
+
+    .Achievements-Section h2 {
+
+        margin-bottom: 2rem ;
+        font-size: 1.5rem;
+        color: #0056b3;
+        text-decoration:underline
+        
+
+    }
+
+
+
+    .Achievement-container {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+
+    .Achievement {
+
+
+        flex: 1 1 200px;
+        margin: 1rem;
+        padding: 1rem;
+        background-color: #f5f5f5;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+    }
+
+
+
+    .Achievement p {
+
+
+
+        color: #333;
+
+
+
+    }
