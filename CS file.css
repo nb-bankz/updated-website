@@ -1,3 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
 body{
 
     margin: 0;
@@ -530,12 +537,6 @@ a:hover {
 
     }
 
-
-    html {
-
-
-        scroll-behavior: smooth;
-    }
 
 
 
